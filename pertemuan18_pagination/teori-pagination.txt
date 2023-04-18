@@ -1,0 +1,7 @@
+=== PAGINATION ===
+
+merupakan teknik untuk membatasi data yang tampil dihalaman web menjadi beberapa halaman
+
+contoh ada 100 data di dalam tabel, dengan menggunakan pagination kita bisa membagi data tersebut menjadi 20 data perhalaman, jadi ada 5 halaman dengan masing-masing 1 halaman nya berisi 20 data.
+
+menggunakan keyword atau querry yang ada di mysql yaitu LIMIT

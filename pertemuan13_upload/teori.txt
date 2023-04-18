@@ -1,0 +1,42 @@
+file handling 
+- <input type="file" ...
+- tambahkan atribut enctype="multipart/form-data" pada elemen form
+- $_FILES
+- function move_uploaded_file
+- type data blob merupakan type data file
+
+5 elemen array pada $_FILES :
+array(1) {
+  ["gambar"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "foto1.jpg"
+    ["type"]=>
+    string(10) "image/jpeg"
+    ["tmp_name"]=>
+    string(24) "C:\xampp\tmp\phpB350.tmp"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(19300)
+  }
+
+pada array $_FILES terdapat array associative dengan 2 dimensi
+pada dimensi pertama terdapat name input nya disini contohnya "gambar" yang didalam nya ada 5 elemen array associative
+pada dimensi kedua terdapat 5 elemen array associative, antara lain :
+- name = nama file yg diupload
+- type = merupakan tipe file nya, dalam contoh ini tipe nya image/jpeg
+- tmp_name = tempat penyimpanan sementara dri file yg di upload
+- error = menghasilkan angka, jika angka nya 0 maka tidak ada error. selain 0 maka ada error, pada error ini bisa dimanfaatkan untuk pengkondisian jika file gagal upload
+- size = bisa digunakan jika size file nya di batasi (byte)
+
+
+pesan eror yang dihasilkan pada elemen error pada $_FILES :
+- 0 = Tidak ada kesalahan, file berhasil diunggah.
+- 1 = File yang diunggah melebihi direktif upload_max_filesize di php.ini .
+- 2 = File yang diunggah melebihi direktif MAX_FILE_SIZE yang ditentukan dalam formulir HTML.
+- 3 = File yang diunggah hanya diunggah sebagian.
+- 4 = Tidak ada file yang diunggah.
+- 6 = Tidak ada folder sementara.
+- 7 = Gagal menulis file ke disk.
+- 8 = Ekstensi PHP menghentikan unggahan file. PHP tidak menyediakan cara untuk memastikan ekstensi mana yang menyebabkan pengunggahan file berhenti; memeriksa daftar ekstensi yang dimuat dengan phpinfo() dapat membantu.

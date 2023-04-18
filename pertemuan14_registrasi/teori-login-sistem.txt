@@ -1,0 +1,9 @@
+Login system :
+- registrasi
+- Login
+- session
+- cookie
+
+registrasi :
+- tabel 'user'
+- enkripsi password

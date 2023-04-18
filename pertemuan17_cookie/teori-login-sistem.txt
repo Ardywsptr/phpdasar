@@ -1,0 +1,47 @@
+Login system :
+- registrasi
+- Login
+- session => user tidak bisa mengakses halaman tertentu sebelum ia Login
+- cookie => fitur remember me pada Login
+
+=== SESSION ===
+
+session merupakan mekanisme penyimpanan informasi ke dalam variabel agar bisa digunakan di lebih dari satu halaman
+
+informasi pada session disimpan di server, jadi ketika kita menyimpan varibel di session maka variabel itu akan di buat dan disimpan di server.
+
+session sangat berkaitan dengan cookie
+
+super global session = $_SESSION
+
+untuk mengisi data ke $_SESSSION harus mengisi terlebih dahulu function session_start() sebelum menuliskan sintaks HTML nya.
+
+session hanya berlaku 1 sesi yang artinya akan berhenti jika browser di close
+
+bisa menghantikan session secara manual dengan function session_destroy(); ,// jika ingin memunculkan session harus balik ke halaman 1 yaitu halaman di mana session dibuat
+
+=== COOKIE ===
+
+cookie mirip seperti session, informasi yang bisa di akses dimana saja di halaman web kita.
+
+yang membedakan cookie dengan session ialah pada penyimpanan nya, jika session di simpan pada server maka cookie di simpan pada client/browser
+
+sehingga client bisa memanipulasi cookie 
+
+cookie bisa digunakan untuk :
+1. mengenali user, mirip session
+2. shopping cart
+3. personalisasi, untuk mengetahui perilaku suatu iklan
+4. remember me untuk login => yang akan digunakan
+5. ....
+
+super global cookie = $_COOKIE
+
+untuk membuat $_COOKIE membutuhkan sebuah function setcookie()
+
+pada function setcookie() terdapat beberapa parameter didalam nya, yaitu :
+1. parameter pertama : key (nama cookie)
+2. parameter kedua : value (nilai cookie)
+3. etc...
+
+cookie hanya berlaku 1 sesi yang artinya akan berhenti jika browser di close

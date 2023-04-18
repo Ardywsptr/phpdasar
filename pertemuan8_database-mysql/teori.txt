@@ -1,0 +1,20 @@
+DBMS SQL & noSQL:
+1. Oracle
+2. MySQL
+3. SQL Server
+4. PostgreSQL
+5. MongoDB -> noSQL
+6. MariaDB -> noSQL
+
+1 tabel harus mempunyai primary key (data yg mempresentasikan satu barus record secara unik)
+
+istilah :
+1. Field/Coloumn/Kolom -> Vertikal
+2. Record/Row/Baris -> Horizontal
+3. Key :
+    3.1. Primary Key
+    3.2. Foreign Key
+4. Auto Increment
+5. Relationship
+6. Normalization
+

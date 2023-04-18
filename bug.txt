@@ -1,0 +1,5 @@
+Terdapat beberapa bug pas sistem ini :
+
+1. pagination : jika menggunakan fitur searching pagnation tidak berjalan. maka tambahkan logika pagnation pada searching
+
+2. pagination : jika data terdapat banyak halaman maka pagnation yang di tampilkan banyak juga. seharusnya maksimal 5, untuk seterusnya menggunakan titik titik

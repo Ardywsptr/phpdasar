@@ -1,0 +1,5 @@
+untuk membuat registrasi :
+1. buatkan tabel pada database untuk penyimpanan data user
+2. pada saat menjalankan resgistrasi, sebelum kirim data ke database harus cek terlebih dahulu username yang dimasukan sudah ada didatabase atau belum, apabila sudah ada user diharuskan mengganti username
+3. enksripsi password
+4. insert ke database

@@ -1,0 +1,20 @@
+=== LIVE SEARCHING-JQUERY === => FOLDER INI TANPA PAGINATION
+
+JQUERY MERUPAKAN LIBRARY JAVASCRIPT
+
+sebelum menggunakan library sebaiknya tahu dulu susah cara membuat secara manual nya, agar ketika menggunakan library dapat merasa terbantu dan memudahkan
+
+jika menggunakan library/framework merasa kesulitan mungkin dasar2 pemrograman nya yang belum kuat
+
+sebelum menggunakan jquery, download terlebih dahulu jquery nya di link https://jquery.com/download/
+
+
+script ini bisa di letakan di head HTML jika sudah menggunakan jquery :
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/script.js"></script> 
+
+memanggil DOM pada jquery cukup ketikan $("dom nya")
+memanggil addEventListener pada jquery cukup ketikan on("event nya", fucntion nya)
+memanggil innerHTML pada jquery cukup ketikan html()
+
+ada banyak cara menggunakan ajax pada jquery, salah stu nya load -> simple, mengambil data dari sumber hanya menggunakan GET

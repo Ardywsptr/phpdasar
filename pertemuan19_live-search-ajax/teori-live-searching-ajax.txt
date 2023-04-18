@@ -1,0 +1,45 @@
+=== LIVE SEARCHING-AJAX === => FOLDER INI TANPA PAGINATION
+
+live search menggunakan ajax merupakan fitur search ketika mengetikan keyword hasil nya langsung di tampilkan tanpa tekan button cari
+
+AJAX (Asynchronous Javascript And XML)
+
+untuk menggunakan AJAX diperlukan object yang ada di browser kita yaitu XMLHttpRequest()
+
+
+SYARAT UNTUK MENGGUNAKAN AJAX :
+
+- paham javascript dasar
+- paham mengenai DOM (Document Object Model)
+
+
+TAHAPAN MENGGUNAKAN AJAX :
+
+1. harus ada aksi / event yang di jalankan, contoh :
+    keyword.addEventListener("keyup", function(){
+
+    });
+
+2. buat object ajax, contoh :
+    let ajax = new XMLHttpRequest();
+
+3. cek kesiapan ajax, contoh :
+    ajax.onreadystatechange = function{
+        if( ajax.readyState == 4 $$ ajax.status == 200 ){
+            // tuliskan perintah yang harus dijalankan disini, contoh
+            consol.log("ajax.responseText");
+        }
+    };
+
+    // readyState merupakan kesiapan sebuah sumber, bernilai 0-4, 4 artinya sumber sudah ready
+    // status merupakan kesiapan code sumber apakah siap atau tidak, dengan beberapa nilai 200, 200, 204 dll
+    // responseText merupakan respon atau isi dari eksekusi ajax, dalam hal ini file hanphone.php
+
+4. eksekusi ajax
+    ajax.open("GET", "ajax/handphone.php", true);
+    ajax.send();
+
+    // pada open() terdapat 3 parameter yang harus di isi
+    // parameter pertama merupakan method GET/POST
+    // parameter kedua merupakan sumber data
+    // parameter ketiga merupakan pilihan antara Synchonous(false) atau Asynchronous(true)

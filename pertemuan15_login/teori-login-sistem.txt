@@ -1,0 +1,8 @@
+Login system :
+- registrasi
+- Login
+- session => user tidak bisa mengakses halaman tertentu sebelum ia Login
+- cookie
+
+
+session merupakan mekanisme penyimpanan informasi ke dalam variabel agar bisa digunakan di lebih dari satu halaman

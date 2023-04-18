@@ -1,0 +1,25 @@
+=== PDF REPPORTINGG === 
+
+Manfaat PDF reporting : 
+
+1. Laporan
+2. Kwintansi / invoice / faktur
+3. Form isian
+4. ...
+
+
+Membuat PDF :
+
+1. Fitur bawaan browser
+2. Library PHP (FPDF, mPDF, DOMPDF)
+3. ...
+
+
+Cara membuat PDF dengan fitur bawaan browser :
+
+1. gunakan css @media print, contoh :
+    @media print {
+        .tambah, .form-cari, .logout, .aksi {
+            display : none;
+        }
+    }

@@ -1,0 +1,5 @@
+cara untuk menghubungkan php dengan mysql :
+1. ekstensi MySQL -> tidak disarankan
+2. ekstensi MySQLi -> yang digunakan, lebih disarankan
+3. PDO (PHP Data Object)
+
