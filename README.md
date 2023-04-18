@@ -57,7 +57,7 @@
 
 <br clear="both">
 
-## requierement :
+## Requierement :
 
 * **code editor**
 * **web server (apache)**
