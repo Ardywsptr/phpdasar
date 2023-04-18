@@ -1,6 +1,6 @@
 # PHP DASAR
 
-**PHP DASAR** -  Ini merupakan repositori dari implementasi materi PHP dasar yang ada pada playlist youtube channel [Web Progrramming Unpas](https://www.youtube.com/watch?v=l1W2OwV5rgY&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6). Dibuat sebagai backup dan dokumentasi saya pribadi untuk pembelajaran PHP dasar
+**PHP DASAR** -  Ini merupakan repositori dari implementasi materi PHP dasar yang ada pada playlist youtube channel [Web Progrramming Unpas](https://www.youtube.com/watch?v=l1W2OwV5rgY&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6) mulai dari pertemuan 1 - 24. Dibuat sebagai backup dan dokumentasi saya pribadi untuk pembelajaran PHP dasar
 
 ![Author](https://img.shields.io/badge/made%20by-Ardywsptr-blue)
 ![GitHub followers](https://img.shields.io/github/followers/Ardywsptr?style=social)
