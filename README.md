@@ -73,4 +73,4 @@
 
 <br clear="both">
 
-Big Thanks for [Dicoding](https://www.dicoding.com/)
+Big Thanks for [WPU](https://www.youtube.com/@sandhikagalihWPU/)
